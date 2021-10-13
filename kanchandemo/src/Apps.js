@@ -1,13 +1,16 @@
-import code from './vendor/images/Code.jpg';
+import Navbar from "./components/Navbar"
+import Slider from "./components/Slider"
+import Footer from "./components/Footer"
+
 export default function App(){
 
    
 return(
     <>
-    <p> My Name Is Kanchan</p>
-    <hr/>
-    <input/>
-    <img className="myImg" src={ code} />
+  <Navbar />
+  <Slider />
+  <Footer />
+ 
     </>
 )
 }
